@@ -1,0 +1,1 @@
+{"name":"Local: MaximumSubarraySum","url":"/home/vijay/Public/dsa_cp/D1/MaximumSubarraySum.cpp","tests":[{"id":1666002606156,"input":"2\n5\n7 -1 -1 3 -7\n7 \n7 1 2 -3 2 1 -3","output":"8\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vijay/Public/dsa_cp/D1/MaximumSubarraySum.cpp","group":"local","local":true}

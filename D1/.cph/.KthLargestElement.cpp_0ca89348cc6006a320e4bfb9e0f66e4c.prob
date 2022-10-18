@@ -1,0 +1,1 @@
+{"name":"Local: KthLargestElement","url":"/home/vijay/Public/dsa_cp/D1/KthLargestElement.cpp","tests":[{"id":1665999085092,"input":"1\n6\n45 12 66 3 44 85\n2","output":"66"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vijay/Public/dsa_cp/D1/KthLargestElement.cpp","group":"local","local":true}
