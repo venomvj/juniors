@@ -2,19 +2,30 @@
 #define ll long long int
 using namespace std;
 
-void solution(){
-	int n;
-	cin>>n;
-	string s;
-	cin>>s;
-	int x=0;
-	for(int i = 0; i< s.length()-1; i++){
-		if(s[i]==s[i+1])
-			++x;
+int length_substring(string s){
+	vector<int> m(256, -1);
+
+	int l = 0, r = 0;
+	int n = s.size();
+	int len = 0;
+
+	while(r<n){
+		if(m[s[r]]!= -1 )
+			l = max(m[s[r]]+1, l);
+		m[s[r]] = r;
+
+		len = max(len, r - l + 1);
+		r++;
 	}
-	cout<<x<<"\n";
+	return len;
 }
 
+
+void solution(){
+	string s;
+	cin>>s;
+	cout<< length_substring(s)<<"\n";
+}
 
 int32_t main()
 {
